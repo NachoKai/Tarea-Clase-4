@@ -7,9 +7,9 @@ r/argentina programa por Fabricio Sodano
 
 ____________________________________
 
-# Age and Salary Calculator
+# Title
 r/argentina program by Fabricio Sodano
   
-### [Enter](https://nachokai.github.io/Tarea-Clase-1/)
+### [Enter](https://nachokai.github.io/Tarea-Clase-4/)
 
 ### Based on an introductory JavaScript workshop for beginners: https://github.com/muses-code-js/js-intro-workshop, by MusesCodeJS and her author Tanya Butenko.
