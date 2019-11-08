@@ -94,8 +94,7 @@ function mostrarTareas() {
         fTarea4()
         nodoResultadoTareas.className = ('mostrar')
         nodoResultadoTareas.innerText = `
-    Ha llegado el momento de un ejercicio clásico: 'FizzBuzz'.
-Cuenta del 1 al 50 e imprime los números:
+Ha llegado el momento de un ejercicio clásico: 'FizzBuzz'. Cuenta del 1 al 50 e imprime:
 * Si un número es múltiplo de tres, imprime 'Fizz'.
 * Si es un múltiplo de 5, imprime 'Buzz'.
 * Si es un múltiplo de 3 y 5, imprime 'FizzBuzz'.
@@ -123,7 +122,7 @@ for (let x = 1; x <= 10; x++) {
   console.log(x);
 }
 
- Desafìo de programación  #2: Imprimí los números impares del 1 al 100
+Desafìo de programación  #2: Imprimí los números impares del 1 al 100
 for (let x = 1; x <= 100; x++) {
 if (x%3==0) {
   console.log(x); } }
@@ -137,7 +136,6 @@ Desafío de programación #4: Imprimí todas las tablas de multiplicación del 1
 for(let i = 0; i <= 10; i++)
 { imprimirTabla(i);
   console.log(""); }
-
 function imprimirTabla(n)
 { for(let i = 1; i <= 10; i++)
     { let fila = n + " * " + i + " = " + n * i;
