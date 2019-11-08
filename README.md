@@ -18,7 +18,7 @@ ____________________________________
 # Various tasks
 r/argentina program by Fabricio Sodano
   
-## [Enter] (https://nachokai.github.io/Tarea-Clase-4/)
+## [Enter](https://nachokai.github.io/Tarea-Clase-4/)
 
 ### Based on an introductory JavaScript workshop, for beginners: https://github.com/muses-code-js/js-intro-workshop, from MusesCodeJS and its author Tanya Butenko.
 
