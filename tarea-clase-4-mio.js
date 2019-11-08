@@ -54,7 +54,7 @@ function mostrarTareas() {
         fTarea1()
         nodoResultadoTareas.className = ('mostrar')
         nodoResultadoTareas.innerText = `
-        TAREA 1: Imprimí cada 3er número del 3 al 22 usando un 'bucle for'
+        Imprimí cada 3er número del 3 al 22 usando un 'bucle for'
 
         for (let i = 3; i <= 22; i += 2) {
             if (i >= 3 && i <= 22) {
