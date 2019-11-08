@@ -19,6 +19,11 @@ button {
     color: #000000;
 }
 
+hr {
+    margin: 0;
+    padding: 0;
+}
+
 .formulario {
     display: flex;
     align-items: center;
