@@ -1,5 +1,3 @@
-//En construcción
-
 # Tareas varias
 r/argentina programa por Fabricio Sodano
   
@@ -12,8 +10,6 @@ TAREA 2: Usando un bucle 'while', imprimir los números de diez a uno.
 TAREA 3: FizzBuzz.  
 TAREA 4: Calcular el promedio de todos los números en un array de números.  
 ____________________________________
-
-//Under construction
 
 # Various tasks
 r/argentina program by Fabricio Sodano
