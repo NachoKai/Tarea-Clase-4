@@ -170,7 +170,6 @@ console.log(conversion(numero))
 
 Desafío de programación #9: Crea una función que convierta de Fahrenheit a Celsius
 let numero = prompt("Elige °C para convertir")
-
 function conversion(numero) {
   return (numero - 32) * 5/9 }
 console.log(conversion(numero).toFixed(2))
