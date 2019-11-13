@@ -59,114 +59,55 @@ function mostrarTareas() {
     if (tarea2.checked) {
         fTarea2()
         nodoResultadoTareas.className = ('mostrar')
-        nodoResultadoTareas.innerText = `
-        Usando un bucle 'while', decile a tu computadora que registre los números de diez a uno
-        
-        let i = 1;
-        while (i <= 10) {
-            console.log(i);
-            i++; }
-        `
+        nodoResultadoTareas.innerHTML = `• Usando un bucle 'while', decile a tu computadora que registre los números de diez a uno<br> <img src="img/tarea2.svg" alt="Tarea 2">`
         nodoResultadoDesafios.innerText = ''
     }
     if (tarea3.checked) {
         fTarea3()
         nodoResultadoTareas.className = ('mostrar')
-        nodoResultadoTareas.innerText = `
-        Calcular el promedio de todos los números en un array de números. (Ponerlo en una función) Ej.: calcularPromedio([10,5,4,2,8])
-
-        function promedio(num) {
-            let sum = 0;
-            for (let i = 0; i < num.length; i++) {
-                sum += num[i]; }
-            return (sum / num.length) || 0; }
-        console.log(promedio([10, 5, 4, 2, 8] ) )
-        `
+        nodoResultadoTareas.innerHTML = `• Calcular el promedio de todos los números en un array de números. (Ponerlo en una función) Ej.: calcularPromedio([10,5,4,2,8])<br> <img src="img/tarea3.svg" alt="Tarea 3">`
         nodoResultadoDesafios.innerText = ''
     }
     if (tarea4.checked) {
         fTarea4()
         nodoResultadoTareas.className = ('mostrar')
-        nodoResultadoTareas.innerText = `
-Ha llegado el momento de un ejercicio clásico: 'FizzBuzz'. Cuenta del 1 al 50 e imprime:
-* Si un número es múltiplo de tres, imprime 'Fizz'.
-* Si es un múltiplo de 5, imprime 'Buzz'.
-* Si es un múltiplo de 3 y 5, imprime 'FizzBuzz'.
-* Para todo lo demás, imprime el número mismo.
-
-let x = 0
-for (x = 0; x <= 50; x++) {
-    if (x % 3 === 0 && x % 5 === 0) {
-        ("FizzBuzz")
-    } else if (x % 3 === 0) {
-        ("Fizz");
-    } else if (x % 5 === 0) {
-        ("Buzz");
-    } else {
-        (x); } }
-        `
+        nodoResultadoTareas.innerHTML = `• Ha llegado el momento de un ejercicio clásico: 'FizzBuzz'. Cuenta del 1 al 50 e imprime:<br>
+* Si un número es múltiplo de tres, imprime 'Fizz'.<br>
+* Si es un múltiplo de 5, imprime 'Buzz'.<br>
+* Si es un múltiplo de 3 y 5, imprime 'FizzBuzz'.<br>
+* Para todo lo demás, imprime el número mismo.<br> <img src="img/tarea4.svg" alt="Tarea 4">`
         nodoResultadoDesafios.innerText = ''
     }
     if (desafios.checked) {
         nodoResultadoDesafios.className = ('mostrar')
-        nodoResultadoDesafios.innerText = `
-        
-Desafío de programación #1: Imprimí los números del 1 al 10
-for (let x = 1; x <= 10; x++) {
-  console.log(x);
-}
-
-Desafìo de programación  #2: Imprimí los números impares del 1 al 100
-for (let x = 1; x <= 100; x++) {
-if (x%3==0) {
-  console.log(x); } }
-
-Desafío de programación #3: Imprimí la tabla de multiplicación del 7
-for (let i = 0; i <= 10 ; i++){
-  let fila = "7 x " + i + " = " + 7*i 
-console.log(fila) }
-
-Desafío de programación #4: Imprimí todas las tablas de multiplicación del 1 al 9
-for(let i = 0; i <= 10; i++)
-{ imprimirTabla(i);
-  console.log(""); }
-function imprimirTabla(n)
-{ for(let i = 1; i <= 10; i++)
-    { let fila = n + " * " + i + " = " + n * i;
-        console.log(fila); } }
-
-Desafío de programación #5: Calcula el resultado de la suma de los numeros del 1 al 10 en un array.
-let suma = 0;
-for(let i = 1; i <= 10; i++)
-{ suma += i; }
-console.log(suma);
-
-Desafío de programación #6: Calcula 10! (10 factorial)
-let mul = 1;
-for(let i = 1; i <= 10; i++)
-{ mul *= i; } console.log(mul);
-
-Desafío de programación #7: Calcula la suma de todos los números impares mayores que 10 y menores que 30
-let sum = 0;
-for(let i = 11; i <= 30; i += 2)
-{
-    sum += i;
-}
-console.log(sum);
-
-Desafío de programación #8: Crea una función que convierta de Celsius a Fahrenheit
-let numero = prompt("Elige °C para convertir")
-function conversion(numero) { 
-    return (numero * 9/5) + 32  }
-console.log(conversion(numero))
-
-Desafío de programación #9: Crea una función que convierta de Fahrenheit a Celsius
-let numero = prompt("Elige °C para convertir")
-function conversion(numero) {
-  return (numero - 32) * 5/9 }
-console.log(conversion(numero).toFixed(2))
-        `
-        nodoResultadoTareas.innerText = ''
+        nodoResultadoTareas.innerHTML = ``
+        nodoResultadoDesafios.innerHTML = `
+        • Desafío de programación #1: Imprimí los números del 1 al 10<br>
+         <img src="img/desafio1.svg" alt="Desafio 1">
+        <br><br>
+        • Desafìo de programación #2: Imprimí los números impares del 1 al 100<br>
+         <img src="img/desafio2.svg" alt="Desafio 2">
+         <br><br>
+        • Desafío de programación #3: Imprimí la tabla de multiplicación del 7<br>
+         <img src="img/desafio3.svg" alt="Desafio 3">
+         <br><br>
+        • Desafío de programación #4: Imprimí todas las tablas de multiplicación del 1 al 9<br>
+          <img src="img/desafio4.svg" alt="Desafio 4">
+          <br><br>
+        • Desafío de programación #5: Calcula el resultado de la suma de los numeros del 1 al 10 en un array<br>
+         <img src="img/desafio5.svg" alt="Desafio 5">
+         <br><br>
+        • Desafío de programación #6: Calcula 10! (10 factorial)<br>
+         <img src="img/desafio6.svg" alt="Desafio 6">
+         <br><br>
+        • Desafío de programación #7: Calcula la suma de todos los números impares mayores que 10 y menores que 30<br>
+         <img src="img/desafio7.svg" alt="Desafio 7">
+         <br><br>
+        • Desafío de programación #8: Crea una función que convierta de Celsius a Fahrenheit<br>
+         <img src="img/desafio8.svg" alt="Desafio 8">
+         <br><br>
+        • Desafío de programación #9: Crea una función que convierta de Fahrenheit a Celsius<br>
+         <img src="img/desafio9.svg" alt="Desafio 9"> `
     }
 }
 
