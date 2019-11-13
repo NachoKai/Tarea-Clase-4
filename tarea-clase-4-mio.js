@@ -53,13 +53,7 @@ function mostrarTareas() {
     if (tarea1.checked) {
         fTarea1()
         nodoResultadoTareas.className = ('mostrar')
-        nodoResultadoTareas.innerText = `
-        Imprimí cada 3er número del 3 al 22 usando un 'bucle for'
-
-        for (let i = 3; i <= 22; i += 2) {
-            if (i >= 3 && i <= 22) {
-            console.log(i++) } }
-        `
+        nodoResultadoTareas.innerHTML = `• Imprimí cada 3er número del 3 al 22 usando un 'bucle for <br> <img src="file:///E:/Users/BiT_SOLUCIONES_iT/Documents/+Programacion/introduccion-a-js/tareas/clase-4/img/tarea1.svg" alt="">`
         nodoResultadoDesafios.innerText = ''
     }
     if (tarea2.checked) {
