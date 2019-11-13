@@ -53,7 +53,7 @@ function mostrarTareas() {
     if (tarea1.checked) {
         fTarea1()
         nodoResultadoTareas.className = ('mostrar')
-        nodoResultadoTareas.innerHTML = `• Imprimí cada 3er número del 3 al 22 usando un 'bucle for <br> <img src="file:///E:/Users/BiT_SOLUCIONES_iT/Documents/+Programacion/introduccion-a-js/tareas/clase-4/img/tarea1.svg" alt="">`
+        nodoResultadoTareas.innerHTML = `• Imprimí cada 3er número del 3 al 22 usando un 'bucle for <br> <img src="img/tarea1.svg" alt="Tarea 1">`
         nodoResultadoDesafios.innerText = ''
     }
     if (tarea2.checked) {
