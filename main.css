@@ -55,6 +55,10 @@ footer {
     bottom: 0;
 }
 
+  footer a {
+    color: #fff;
+  }
+
 .tareas {
     width: 420px;
     padding: 1rem;
