@@ -1,4 +1,4 @@
-let $form = document.querySelector('#form')
+let $form = document.querySelector('#formulario')
 let tarea1 = $form.querySelector('#boton-tarea1')
 let tarea2 = $form.querySelector('#boton-tarea2')
 let tarea3 = $form.querySelector('#boton-tarea3')
@@ -53,29 +53,29 @@ function mostrarTareas() {
     if (tarea1.checked) {
         fTarea1()
         nodoResultadoTareas.className = ('mostrar')
-        nodoResultadoTareas.innerHTML = `• Imprimí cada 3er número del 3 al 22 usando un 'bucle for <br> <img src="img/tarea1.svg" alt="Tarea 1">`
+        nodoResultadoTareas.innerHTML = `• Imprimí cada 3er número del 3 al 22 usando un 'bucle for <br><br> <img src="img/tarea1.svg" alt="Tarea 1">`
         nodoResultadoDesafios.innerText = ''
     }
     if (tarea2.checked) {
         fTarea2()
         nodoResultadoTareas.className = ('mostrar')
-        nodoResultadoTareas.innerHTML = `• Usando un bucle 'while', decile a tu computadora que registre los números de diez a uno<br> <img src="img/tarea2.svg" alt="Tarea 2">`
+        nodoResultadoTareas.innerHTML = `• Usando un bucle 'while', decile a tu computadora que registre los números de diez a uno<br><br> <img src="img/tarea2.svg" alt="Tarea 2">`
         nodoResultadoDesafios.innerText = ''
     }
     if (tarea3.checked) {
         fTarea3()
         nodoResultadoTareas.className = ('mostrar')
-        nodoResultadoTareas.innerHTML = `• Calcular el promedio de todos los números en un array de números. (Ponerlo en una función) Ej.: calcularPromedio([10,5,4,2,8])<br> <img src="img/tarea3.svg" alt="Tarea 3">`
+        nodoResultadoTareas.innerHTML = `• Calcular el promedio de todos los números en un array de números. (Ponerlo en una función) Ej.: calcularPromedio([10,5,4,2,8])<br><br> <img src="img/tarea3.svg" alt="Tarea 3">`
         nodoResultadoDesafios.innerText = ''
     }
     if (tarea4.checked) {
         fTarea4()
         nodoResultadoTareas.className = ('mostrar')
-        nodoResultadoTareas.innerHTML = `• Ha llegado el momento de un ejercicio clásico: 'FizzBuzz'. Cuenta del 1 al 50 e imprime:<br>
+        nodoResultadoTareas.innerHTML = `• Ha llegado el momento de un ejercicio clásico: 'FizzBuzz'. Cuenta del 1 al 50 e imprime:<br><br>
 * Si un número es múltiplo de tres, imprime 'Fizz'.<br>
 * Si es un múltiplo de 5, imprime 'Buzz'.<br>
 * Si es un múltiplo de 3 y 5, imprime 'FizzBuzz'.<br>
-* Para todo lo demás, imprime el número mismo.<br> <img src="img/tarea4.svg" alt="Tarea 4">`
+* Para todo lo demás, imprime el número mismo.<br><br> <img src="img/tarea4.svg" alt="Tarea 4">`
         nodoResultadoDesafios.innerText = ''
     }
     if (desafios.checked) {
