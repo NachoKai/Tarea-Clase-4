@@ -111,18 +111,8 @@ function mostrarTareas() {
     }
 }
 
-$form.querySelector('#boton-tarea1').onclick = function () {
-    mostrarTareas()
-}
-$form.querySelector('#boton-tarea2').onclick = function () {
-    mostrarTareas()
-}
-$form.querySelector('#boton-tarea3').onclick = function () {
-    mostrarTareas()
-}
-$form.querySelector('#boton-tarea4').onclick = function () {
-    mostrarTareas()
-}
-$form.querySelector('#boton-desafios').onclick = function () {
-    mostrarTareas()
-}
+$form.querySelector('#boton-tarea1').onclick = () => mostrarTareas()
+$form.querySelector('#boton-tarea2').onclick = () => mostrarTareas()
+$form.querySelector('#boton-tarea3').onclick = () => mostrarTareas()
+$form.querySelector('#boton-tarea4').onclick = () => mostrarTareas()
+$form.querySelector('#boton-desafios').onclick = () => mostrarTareas()
